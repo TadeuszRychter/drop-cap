@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pl-PL">
+<head><meta charset="UTF-8" />
+<title>plugin</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="drop-cap-style.css" />
+<link rel="shortcut icon" href=""/>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<script src="drop-cap.js"></script>
+</head>
+
+<body>
+  <p class="drop-cap-paragraph">Porte ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+  
+  <p class="drop-cap-3-paragraph">Korte ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+    
+  <p id="drop-cap-id">6Porte ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+  
+  <p class="drop-cap-paragraph">     <span>   <a href="#adres" title="tytul">   Iorte ipsum</a> </span>dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+  
+  <p class="drop-cap-paragraph">   Dorte ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+  
+   <p class="drop-cap-3-paragraph">Corte ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quidem ducimus natus ratione veritatis consequatur quasi perspiciatis dolorem aut iusto debitis eius odit illo animi inventore reprehenderit corrupti sed obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum molestias tempore quod ex beatae inventore in magni dolores tempora maxime temporibus sequi ut commodi consectetur soluta vitae dolorum! Nemo.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quos ut dicta neque eligendi consequatur dolores iure omnis repellat dolor beatae unde odio tempore iusto praesentium ab esse modi incidunt.</p>
+    
+<script type="text/javascript">
+	var settings = {			
+			fontURL: 'OpenSans-Regular-webfont.svg',
+			paragraphClass: 'drop-cap-paragraph',
+			elementID: null, // leave null to use plugin on classes
+			elementWithShapeOutsideClass: 'drop-cap-element',
+			elementWithShapeOutsideStyle:   'shape-margin: 1em;'+
+                                            'float: left;', // width and height are based on the biggest polygon's size and attached later
+			wrapperClass: 'drop-cap-wrapper',
+			wrapperStyle:   'margin: 50px auto;'+
+                            'width: 700px;'+
+                            'overflow: hidden;'+// overflow: hidden and position: relative are necessary for proper work
+                            'position: relative;', // overflow: hidden and position: relative are necessary for proper work
+			firstLetterSpanClass: 'drop-cap-letter',
+			firstLetterSpanStyle:   'position: absolute;'+
+                                    'left: -12px;'+ // set left and top values to compensate for glyph vs font size and gain alignment
+                                    'top: -30px;'+
+                                    'font-family: "Open Sans";', 
+			firstLetterFontSize: 194, //without unit
+			firstLetterFontSizeUnit: 'px',
+			letterHeightToFontSizeRatio: 0.7
+		};
+		
+	dropCap(settings);
+	
+    var settings2 = {			
+			fontURL: 'entypo-webfont.svg',
+			paragraphClass: null,
+			elementID: 'drop-cap-id', // leave null to use plugin on classes
+			elementWithShapeOutsideClass: 'drop-cap-2-element',
+			elementWithShapeOutsideStyle:   'shape-margin: 1em;'+
+                                            'float: left;', // width and height are based on the biggest polygon's size and attached later
+			wrapperClass: 'drop-cap-2-wrapper',
+			wrapperStyle:   'margin: 50px auto;'+
+                            'width: 700px;'+
+                            'overflow: hidden;'+// overflow: hidden and position: relative are necessary for proper work
+                            'position: relative;', // overflow: hidden and position: relative are necessary for proper work
+			firstLetterSpanClass: 'drop-cap-2-letter',
+			firstLetterSpanStyle:   'position: absolute;'+
+                                    'left: -20px;'+ // set left and top values to compensate for glyph vs font size and gain alignment
+                                    'top: -180px;'+
+                                    'color: #cc0033;'+
+                                    'font-family: "Entypo";', 
+			firstLetterFontSize: 600, //without unit
+			firstLetterFontSizeUnit: 'px',
+			letterHeightToFontSizeRatio: 0.37
+		};		
+	dropCap(settings2);
+    
+    var settings3 = {			
+			fontURL: 'freebooterscript-webfont.svg',
+			paragraphClass: 'drop-cap-3-paragraph',
+			elementID: null, // leave null to use plugin on classes
+			elementWithShapeOutsideClass: 'drop-cap-3-element',
+			elementWithShapeOutsideStyle:   'shape-margin: 0.1em;'+
+                                            'float: left;', // width and height are based on the biggest polygon's size and attached later
+			wrapperClass: 'drop-cap-3-wrapper',
+			wrapperStyle:   'margin: 50px auto;'+
+                            'width: 700px;'+
+                            'overflow: hidden;'+// overflow: hidden and position: relative are necessary for proper work
+                            'position: relative;', // overflow: hidden and position: relative are necessary for proper work
+			firstLetterSpanClass: 'drop-cap-3-letter',
+			firstLetterSpanStyle:   'position: absolute;'+
+                                    'left: 0px;'+ // set left and top values to compensate for glyph vs font size and gain alignment
+                                    'top: 14px;'+
+                                    'font-family: "Freebooter";', 
+			firstLetterFontSize: 194, //without unit
+			firstLetterFontSizeUnit: 'px',
+			letterHeightToFontSizeRatio: 0.85
+		};
+    dropCap(settings3);
+	
+</script>
+</body>
+</html>

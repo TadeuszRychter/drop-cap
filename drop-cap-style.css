@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url(OpenSans-Regular-webfont.svg);
+	src: url(OpenSans-Regular-webfont.ttf);
+}
+@font-face {
+	font-family: "Entypo";
+	src: url(entypo-webfont.svg);
+	src: url(entypo-webfont.ttf);
+}
+@font-face {
+	font-family: "Freebooter";
+	src: url(freebooterscript-webfont.svg);
+	src: url(freebooterscript-webfont.ttf);
+}
+
+body {
+	background-color: #fdf6e3;
+    color: #073642  ;
+	font-family: "Open Sans";
+}
+
+p {
+	margin: 0;
+}
