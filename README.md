@@ -19,6 +19,7 @@ The function responsible for converting SVG paths to polygons doesn't work well 
 
 #License and acknowledgement
 As marked in the source code the function pathToPolygon is based on the code from the [Path to Polygon Converter](http://betravis.github.io/shape-tools/path-to-polygon/) authored by Bear Travis licensed on a [creative commons license] (http://creativecommons.org/licenses/by/3.0/). Everything else has a double license MIT/CC from the previous sentence.
+Fonts [Open Sans](http://www.fontsquirrel.com/fonts/open-sans), [Entypo](http://www.fontsquirrel.com/fonts/entypo) and [Freebooter Script](http://www.fontsquirrel.com/fonts/Freebooter-Script) come from Fontsquirrel and have their respective licenses.
 
 #Tests
 There's folder "tests" with Jasmine and a tiny test spec. However it doesn't mean that this plugin was developed using TDD approach. It's actually for a function I've written to find first letter instead of using a simple regexp like others. This way I support non-latin characters. And blasphemously test implementation ;). To avoid closure and possible workarounds I test the plugin with first and last lines commented out and settings pasted in.
